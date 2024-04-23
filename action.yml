@@ -1,0 +1,15 @@
+name: create-change-request
+description: change request
+author: jyot.scorpio24@gmail.com
+inputs:
+  snow-assignment-group:
+    description: the change assignment group
+    required: true
+  snow-change-description:
+    description: change description
+    required: true
+outputs:
+  change-id
+runs:
+  using: composite
+  steps:
